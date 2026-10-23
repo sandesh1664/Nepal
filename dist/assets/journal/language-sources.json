@@ -1,0 +1,198 @@
+{
+  "researchDate": "2026-10-23",
+  "phrases": [
+    {
+      "id": "namaste",
+      "script": "नमस्ते",
+      "roman": "Namaste",
+      "meaning": "Hello",
+      "language": "Nepali",
+      "lang": "ne",
+      "note": "A respectful everyday greeting in Nepali, with Sanskrit roots. Nepal’s many communities also have their own greetings.",
+      "source": "https://pressbooks.bccampus.ca/nepali/chapter/chapter-2-unit-1-key-vocabulary/"
+    },
+    {
+      "id": "welcome",
+      "script": "नेपालमा स्वागत छ",
+      "roman": "Nepalma swagat chha",
+      "meaning": "Welcome to Nepal",
+      "language": "Nepali",
+      "lang": "ne",
+      "note": "A warm welcome to Nepal. The shorter expression “Swagat chha” means “Welcome.”",
+      "source": "https://pressbooks.bccampus.ca/nepali/chapter/chapter-2-unit-1-key-vocabulary/"
+    },
+    {
+      "id": "thanks",
+      "script": "धन्यवाद",
+      "roman": "Dhanyabad",
+      "meaning": "Thank you",
+      "language": "Nepali",
+      "lang": "ne",
+      "note": "A simple expression of thanks, for a shared moment or a kindness along the way.",
+      "source": "https://pressbooks.bccampus.ca/nepali/chapter/chapter-2-unit-1-key-vocabulary/"
+    },
+    {
+      "id": "chiya",
+      "script": "चिया",
+      "roman": "Chiya",
+      "meaning": "Tea",
+      "language": "Nepali",
+      "lang": "ne",
+      "note": "Tea. A lovely word to know in the tea hills or over a shared cup; it does not describe one particular recipe.",
+      "source": "https://pressbooks.bccampus.ca/nepali/chapter/chapter-2-unit-5-speaking/"
+    },
+    {
+      "id": "bistarai",
+      "script": "बिस्तारै",
+      "roman": "Bistarai",
+      "meaning": "Slowly",
+      "language": "Nepali",
+      "lang": "ne",
+      "note": "Slowly. Let it be a small reminder to make time for the people and places along your journey.",
+      "source": "https://giwmscdntwo.gov.np/media/pdf_upload/Tamu%20Dictionary_Inner_CTP_2079%2005%2012_q4gh3wc.pdf",
+      "additionalSources": [
+        "https://en.wiktionary.org/wiki/बिस्तारै"
+      ],
+      "verification": "Government-hosted Tamu–Nepali–English dictionary search extract confirms Nepali बिस्तारै = slowly; full government PDF retrieval timed out/503. Independently corroborated by lexical search results."
+    },
+    {
+      "id": "samjhana",
+      "script": "सम्झना",
+      "roman": "Samjhana",
+      "meaning": "Memory",
+      "language": "Nepali",
+      "lang": "ne",
+      "note": "Memory or remembrance. A word for the moments that travel home with you.",
+      "source": "https://giwmscdntwo.gov.np/media/pdf_upload/Tamu%20Dictionary_Inner_CTP_2079%2005%2012_q4gh3wc.pdf",
+      "additionalSources": [
+        "https://www.jaspell.uk/fast_nepali_dictionary_ns-r-e.htm"
+      ],
+      "verification": "Government dictionary search extract confirms Nepali सम्झना = memory; independent dictionary search agrees. Full government PDF was temporarily unavailable."
+    },
+    {
+      "id": "prakriti",
+      "script": "प्रकृति",
+      "roman": "Prakriti",
+      "iast": "prakṛti",
+      "meaning": "Nature",
+      "language": "Sanskrit-rooted word, also used in Nepali",
+      "lang": "sa",
+      "note": "A Sanskrit-rooted word also used in Nepali. “Nature” is one short meaning; the Sanskrit word has broader philosophical meanings too.",
+      "source": "https://sanskrit.uohyd.ac.in/SKT/MW/163.html",
+      "additionalSources": [
+        "https://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/MWScanpdf/mw0654-prakRti.pdf"
+      ]
+    },
+    {
+      "id": "shanti",
+      "script": "शान्ति",
+      "roman": "Shanti",
+      "iast": "śānti",
+      "meaning": "Peace",
+      "language": "Sanskrit-rooted word, also used in Nepali",
+      "lang": "sa",
+      "note": "Peace, calm or tranquility. A Sanskrit-rooted word also used in Nepali.",
+      "source": "https://sanskrit.uohyd.ac.in/SKT/MW/259.html"
+    },
+    {
+      "id": "atithi",
+      "script": "अतिथिदेवो भव",
+      "displayScript": "अतिथि देवो भव",
+      "roman": "Atithi devo bhava",
+      "iast": "atithidevo bhava",
+      "meaning": "Treat the guest with reverence",
+      "language": "Sanskrit",
+      "lang": "sa",
+      "note": "A reflection on hospitality from the Taittiriya Upanishad, Shiksha Valli 1.11.2. The English meaning here is a paraphrase; literally, the instruction asks one to regard the guest as a deity.",
+      "source": "https://vedicheritage.gov.in/hi/upanishads/taittiriya-upanishads/",
+      "additionalSources": [
+        "https://www.kamakoti.org/kamakoti/articles/Essence%20of%20Taittiriya%20Upanishad.pdf"
+      ]
+    }
+  ],
+  "proposedUI": {
+    "heroWelcome": {
+      "script": "नेपालमा स्वागत छ",
+      "roman": "Nepalma swagat chha",
+      "english": "Welcome to Nepal",
+      "lang": "ne"
+    },
+    "regionalWelcome": {
+      "script": "स्वागत छ",
+      "roman": "Swagat chha",
+      "english": "Welcome",
+      "lang": "ne"
+    },
+    "photographySection": {
+      "script": "सम्झना",
+      "roman": "Samjhana",
+      "english": "A photographic journal",
+      "literalMeaning": "Memory",
+      "lang": "ne"
+    },
+    "natureSection": {
+      "script": "प्रकृति",
+      "roman": "Prakriti",
+      "english": "Nature",
+      "languageLabel": "A Sanskrit-rooted word, also used in Nepali"
+    },
+    "slowTravel": {
+      "script": "बिस्तारै",
+      "roman": "Bistarai",
+      "english": "Take your time",
+      "literalMeaning": "Slowly",
+      "lang": "ne"
+    },
+    "footer": {
+      "script": "धन्यवाद",
+      "roman": "Dhanyabad",
+      "english": "Thank you for wandering with us.",
+      "literalMeaning": "Thank you",
+      "lang": "ne"
+    },
+    "optionalFooter": {
+      "script": "फेरि भेटौँ",
+      "roman": "Pheri bhetaun",
+      "english": "Let’s meet again",
+      "lang": "ne",
+      "note": "Natural editorial Nepali farewell; literally Let us meet again. The exact form is used in Nepal government event text, but that source is evidence of usage rather than a bilingual translation. Prefer the fully source-checked धन्यवाद footer if minimizing source ambiguity.",
+      "source": "https://www.vbdrtc.gov.np/"
+    }
+  },
+  "cautions": [
+    "Nepali and Sanskrit are different languages. A Sanskrit-rooted word may also be ordinary Nepali vocabulary; label the context rather than claiming exclusive ownership.",
+    "Nepal is multilingual. Do not call these nine words all of Nepal’s language or imply all communities have identical customs.",
+    "Keep English meanings visible and mark actual phrases with lang=ne or lang=sa. Use a Devanagari-capable font; do not apply wide Latin letter-spacing to Devanagari.",
+    "Use common words as elegant editorial touches, not as unintelligible replacements for practical navigation, controls or form labels.",
+    "Roman spellings are readable transliterations rather than exact pronunciation instructions; no audio was generated or verified.",
+    "Do not invent historical provenance for an original slogan. Label any Sanskrit line with its actual source and distinguish a paraphrase from a literal translation.",
+    "Prefer the short hospitality line over scattering Om signs or sacred mantras as decoration.",
+    "BCcampus text is by Binod Shrestha, Salina Dolmo Lama and Mark Turin (2026), with CC BY-NC-SA 4.0 noted; use the common language facts and brief words, not copied lessons or their creative exercises."
+  ],
+  "sourceRegister": [
+    {
+      "title": "Introduction to the Nepali Language · Key vocabulary",
+      "url": "https://pressbooks.bccampus.ca/nepali/chapter/chapter-2-unit-1-key-vocabulary/"
+    },
+    {
+      "title": "Introduction to the Nepali Language · Welcoming a visitor",
+      "url": "https://pressbooks.bccampus.ca/nepali/chapter/chapter-2-unit-5-speaking/"
+    },
+    {
+      "title": "Government-hosted Tamu–Nepali–English dictionary",
+      "url": "https://giwmscdntwo.gov.np/media/pdf_upload/Tamu%20Dictionary_Inner_CTP_2079%2005%2012_q4gh3wc.pdf"
+    },
+    {
+      "title": "Monier-Williams · prakṛti, University of Hyderabad mirror",
+      "url": "https://sanskrit.uohyd.ac.in/SKT/MW/163.html"
+    },
+    {
+      "title": "Monier-Williams · śānti, University of Hyderabad mirror",
+      "url": "https://sanskrit.uohyd.ac.in/SKT/MW/259.html"
+    },
+    {
+      "title": "Vedic Heritage Portal · Taittiriya Upanishad, Shiksha Valli",
+      "url": "https://vedicheritage.gov.in/hi/upanishads/taittiriya-upanishads/"
+    }
+  ]
+}

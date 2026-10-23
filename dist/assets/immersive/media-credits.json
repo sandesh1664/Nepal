@@ -1,0 +1,92 @@
+{
+  "videos": [
+    {
+      "file": "tsho-rolpa.mp4",
+      "poster": "tsho-rolpa-poster.jpg",
+      "title": "Tsho Rolpa Lake — aerial reveal",
+      "location": "Tsho Rolpa Lake, Nepal",
+      "author": "Raju Shrestha",
+      "source": "https://www.pexels.com/video/aerial-view-of-tsho-rolpa-lake-in-nepal-29747126/",
+      "original_url": "https://videos.pexels.com/video-files/29747126/12786328_1920_1080_60fps.mp4",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "changes": "Resized to 1280×720; encoded as H.264 at 30 fps with web-optimized bitrate and faststart; no audio; representative video frame extracted as poster.",
+      "width": 1280,
+      "height": 720,
+      "codec": "h264",
+      "frame_rate": "30/1",
+      "duration_seconds": 36.033333,
+      "size_bytes": 6577421
+    },
+    {
+      "file": "nepal-hills.mp4",
+      "poster": "nepal-hills-poster.jpg",
+      "title": "Nepali hills above the clouds",
+      "location": "Nepal; exact viewpoint not independently verified",
+      "author": "Prabesh Rai",
+      "source": "https://www.pexels.com/video/nepali-village-drone-view-27817134/",
+      "original_url": "https://videos.pexels.com/video-files/27817134/12232529_3840_2160_30fps.mp4",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "changes": "Resized to 1920×1080; encoded as H.264 at 30 fps with faststart; no audio; representative video frame extracted as poster.",
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "frame_rate": "30/1",
+      "duration_seconds": 33.733333,
+      "size_bytes": 3979391
+    },
+    {
+      "file": "phewa-lake.mp4",
+      "poster": "phewa-lake-poster.jpg",
+      "title": "Phewa Lake — a quieter perspective",
+      "location": "Phewa Lake, Pokhara, Nepal",
+      "author": "Pritam Chhetri",
+      "source": "https://www.pexels.com/video/aerial-view-of-phewa-lake-in-pokhara-nepal-38680457/",
+      "original_url": "https://videos.pexels.com/video-files/38680457/16429998_1920_1080_60fps.mp4",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "changes": "Encoded as H.264 at 1920×1080, 30 fps with faststart; no audio; representative video frame extracted as poster.",
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "frame_rate": "30/1",
+      "duration_seconds": 23.433333,
+      "size_bytes": 4561354
+    }
+  ],
+  "panoramas": [
+    {
+      "file": "gosaikunda-360.jpg",
+      "title": "Gosaikunda 360",
+      "location": "Gosaikunda Lake, Rasuwa, Nepal",
+      "author": "Acharya Bipin",
+      "source": "https://commons.wikimedia.org/wiki/File:Gosaikunda_360.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Gosaikunda_360.jpg",
+      "license": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized from 8704×4352 to 4096×2048 and JPEG recompressed for web use. Full equirectangular projection preserved. This resized image remains licensed under CC BY-SA 4.0.",
+      "width": 4096,
+      "height": 2048,
+      "projection": "equirectangular",
+      "capture_date": "2019-08-15",
+      "size_bytes": 2385255
+    },
+    {
+      "file": "ram-mandir-360.jpg",
+      "title": "Ram Mandir 360 View Nepal",
+      "location": "Ram Mandir, Pashupatinath, Kathmandu, Nepal",
+      "author": "Gaurav Dhwaj Khadka",
+      "source": "https://commons.wikimedia.org/wiki/File:Ram_Mandir_360_View_Nepal.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ram_Mandir_360_View_Nepal.jpg",
+      "license": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Resized from 8704×4352 to 4096×2048 and JPEG recompressed for web use. Full equirectangular projection preserved. This resized image remains licensed under CC BY-SA 4.0.",
+      "width": 4096,
+      "height": 2048,
+      "projection": "equirectangular",
+      "capture_date": "2019-05-07",
+      "size_bytes": 1891071
+    }
+  ]
+}
