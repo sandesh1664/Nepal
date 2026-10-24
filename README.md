@@ -1,4 +1,4 @@
-> **Upload in progress:** Editable source is available. Original photos, videos and the font are still being transferred; the complete site will be ready after the media commit.
+> **Media transfer in progress.** Source code is available now. Run the restore command after `UPLOAD-STATUS.json` reports complete.
 
 # Nepal — Beyond the Ordinary
 
@@ -11,6 +11,7 @@ Clone this repository, then start a local server with Python 3:
 ```bash
 git clone https://github.com/sandesh1664/Nepal.git
 cd Nepal
+python3 restore_assets.py
 python3 -m http.server 8000 --bind 127.0.0.1 --directory dist
 ```
 
@@ -28,7 +29,7 @@ On Windows, use `py -3` in place of `python3` if needed. No npm installation, bu
 - Province journey outlines, departure dates, visitor-entered budgets, packing lists, notes and text travel briefs.
 - Responsive styles, keyboard controls, reduced-motion support and photographer credits.
 
-The Karnali Phoksundo film uses a YouTube embed and needs internet access. External Google Fonts and linked research pages also need internet access. The bundled photos and local MP4 files are included at the website's original quality.
+The Karnali Phoksundo film uses a YouTube embed and needs internet access. External Google Fonts and linked research pages also need internet access. The original photos, local MP4 files and bundled font are supplied in `media-parts/`. Run `python3 restore_assets.py` once to restore their exact original paths under `dist/assets/`. This verifies every part and restored file with SHA-256 without downloading anything or installing packages. The parts keep each transfer within the upload service limit.
 
 ## Project structure
 
@@ -41,12 +42,14 @@ The Karnali Phoksundo film uses a YouTube embed and needs internet access. Exter
 | `dist/sudurpaschim.html` and `dist/farwest*` | Sudurpashchim chapter |
 | `dist/journal*` | Shared photographic journal and wordbook |
 | `dist/immersive-viewer.js`, `dist/software-viewer.js` | 360° viewer and artistic 3D rendering |
-| `dist/assets/` | Images, videos, fonts and media credit manifests |
+| `dist/assets/` | Media credits; images, videos and font appear here after restoration |
+| `media-parts/`, `MEDIA-MANIFEST.json` | All original media in verified archive parts |
+| `restore_assets.py` | Restore media before running or hosting |
 | `dist/vendor/` | Vendored Three.js and its license |
 | `docs/BUILD-NOTES.md` | Original creation notes, research details and edition-specific validation |
 | `SOURCE-VERSION.json` | Provenance of this source export |
 
-These files are the editable source. There is no separate compiled frontend. To host the website elsewhere, publish the contents of `dist/` on a static web host and preserve the relative paths.
+These files are the editable source. There is no separate compiled frontend. To host the website elsewhere, run `python3 restore_assets.py`, then publish the contents of `dist/` on a static web host and preserve the relative paths.
 
 ## Data and behavior
 
@@ -58,4 +61,4 @@ Keep photographer credits and the individual image/video license notices when re
 
 ## Verification
 
-The published Karnali edition passed JavaScript syntax, catalog, file/reference, image, route and static DOM checks. All copied website files in this repository were checked byte-for-byte against that source. Browser preview was unavailable for the latest province editions, so current browser layout, video playback and download completion remain unverified. Earlier browser validation in the build notes applies to the editions identified there.
+The published Karnali edition passed JavaScript syntax, catalog, file/reference, image, route and static DOM checks. All website source files match the published revision. Clean-folder media restoration and every media checksum were verified. Browser preview was unavailable for the latest province editions, so current browser layout, video playback and download completion remain unverified. Earlier browser validation in the build notes applies to the editions identified there.

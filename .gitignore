@@ -6,3 +6,8 @@ __pycache__/
 .env.*
 !.env.example
 node_modules/
+
+# Original media is restored from checked archive parts.
+dist/assets/**/*.jpg
+dist/assets/**/*.mp4
+dist/assets/**/*.ttf
